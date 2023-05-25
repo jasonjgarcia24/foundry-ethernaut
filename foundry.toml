@@ -9,58 +9,58 @@ out = "out"
 libs = ["lib"]
 solc = "0.6.5"
 
-[profile.level2]
-src = "level2/src"
-test = "level2/test"
+[profile.level02]
+src = "level02/src"
+test = "level02/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
-[profile.level3]
-src = "level3/src"
-test = "level3/test"
+[profile.level03]
+src = "level03/src"
+test = "level03/test"
 out = "out"
 libs = ["lib"]
 solc = "0.6.5"
 
-[profile.level4]
-src = "level4/src"
-test = "level4/test"
+[profile.level04]
+src = "level04/src"
+test = "level04/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
-[profile.level5]
-src = "level5/src"
-test = "level5/test"
+[profile.level05]
+src = "level05/src"
+test = "level05/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
-[profile.level6]
-src = "level6/src"
-test = "level6/test"
+[profile.level06]
+src = "level06/src"
+test = "level06/test"
 out = "out"
 libs = ["lib"]
 solc = "0.6.5"
 
-[profile.level7]
-src = "level7/src"
-test = "level7/test"
+[profile.level07]
+src = "level07/src"
+test = "level07/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
-[profile.level8]
-src = "level8/src"
-test = "level8/test"
+[profile.level08]
+src = "level08/src"
+test = "level08/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.17"
 
-[profile.level9]
-src = "level9/src"
-test = "level9/test"
+[profile.level09]
+src = "level09/src"
+test = "level09/test"
 out = "out"
 libs = ["lib"]
 solc = "0.8.20"

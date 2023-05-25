@@ -1,1 +1,0 @@
-FOUNDRY_PROFILE=level7 forge script level7/script/L7_Solution__Delegate.sol --rpc-url sepolia --broadcast
