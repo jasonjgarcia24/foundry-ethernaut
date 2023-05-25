@@ -1,0 +1,82 @@
+[rpc_endpoints]
+local = "http://127.0.0.1:8545"
+sepolia = "${FORK_URL}"
+
+[profile.scratch]
+src = "scratchsrc"
+test = "scratch/test"
+out = "out"
+libs = ["lib"]
+solc = "0.6.5"
+
+[profile.level2]
+src = "level2/src"
+test = "level2/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level3]
+src = "level3/src"
+test = "level3/test"
+out = "out"
+libs = ["lib"]
+solc = "0.6.5"
+
+[profile.level4]
+src = "level4/src"
+test = "level4/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level5]
+src = "level5/src"
+test = "level5/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level6]
+src = "level6/src"
+test = "level6/test"
+out = "out"
+libs = ["lib"]
+solc = "0.6.5"
+
+[profile.level7]
+src = "level7/src"
+test = "level7/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level8]
+src = "level8/src"
+test = "level8/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.17"
+
+[profile.level9]
+src = "level9/src"
+test = "level9/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level10]
+src = "level10/src"
+test = "level10/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level11]
+src = "level11/src"
+test = "level11/test"
+out = "out"
+libs = ["lib"]
+solc = "0.6.12"
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
