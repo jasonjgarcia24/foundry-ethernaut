@@ -1,0 +1,2 @@
+FOUNDRY_PROFILE=level06 forge create --contracts level06/src/L6_Caller__Token.sol --rpc-url sepolia --private-key $PRIV_KEY L6_Caller__Token
+FOUNDRY_PROFILE=level06 forge script level06/script/L6_Solution__Token.sol --rpc-url sepolia --broadcast --skip-simulation
