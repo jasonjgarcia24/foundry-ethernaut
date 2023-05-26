@@ -1,2 +1,2 @@
-FOUNDRY_PROFILE=level12 forge create --contracts level12/src/L12_Caller__Elevator.sol --rpc-url sepolia --private-key $PRIV_KEY L12_Caller__Elevator
-FOUNDRY_PROFILE=level12 forge script level12/script/L12_Solution__Elevator.sol --rpc-url sepolia --broadcast --skip-simulation
+cast storage 0x37d163122D96202C0ea53e61522837Fe313f1E89 5 --rpc-url sepolia
+FOUNDRY_PROFILE=level13 forge script level13/script/L13_Solution__Privacy.sol --rpc-url sepolia --broadcast --skip-simulation
