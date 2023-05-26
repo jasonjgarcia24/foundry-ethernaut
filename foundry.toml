@@ -93,4 +93,18 @@ out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
+[profile.level14]
+src = "level14/src"
+test = "level14/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
+[profile.level15]
+src = "level15/src"
+test = "level15/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
