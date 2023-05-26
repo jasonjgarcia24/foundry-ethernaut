@@ -1,0 +1,2 @@
+FOUNDRY_PROFILE=level12 forge create --contracts level12/src/L12_Caller__Elevator.sol --rpc-url sepolia --private-key $PRIV_KEY L12_Caller__Elevator
+FOUNDRY_PROFILE=level12 forge script level12/script/L12_Solution__Elevator.sol --rpc-url sepolia --broadcast --skip-simulation
