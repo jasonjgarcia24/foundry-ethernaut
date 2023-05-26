@@ -7,7 +7,7 @@ src = "scratchsrc"
 test = "scratch/test"
 out = "out"
 libs = ["lib"]
-solc = "0.6.5"
+solc = "0.8.20"
 
 [profile.level02]
 src = "level02/src"
