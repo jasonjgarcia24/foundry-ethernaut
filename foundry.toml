@@ -128,4 +128,14 @@ out = "out"
 libs = ["lib"]
 solc = "0.8.20"
 
+[profile.level19]
+src = "level19/src"
+test = "level19/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+optimizer = true
+optimizer-runs = 1
+via_ir = true
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

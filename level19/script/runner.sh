@@ -1,0 +1,7 @@
+# init:    0x 600a 600c 6000 39 600a 6000 f3
+# runtime: 0x 6042 6000 52 6020 6000 f3
+
+# 0x600a600c600039600a6000f3602a60405260206040f3
+
+cast send --private-key $PRIV_KEY --rpc-url sepolia --create 0x600a600c600039600a6000f3602a60405260206040f3
+FOUNDRY_PROFILE=level19 cast send 0x914947ebE03dEa5967cB9867F6119183c80dc4c9 "setSolver(address)" 0x76DE2a17E45cD9C53124C43f0074F30A7E81FFC3 --private-key $PRIV_KEY --rpc-url sepolia
