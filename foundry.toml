@@ -138,4 +138,14 @@ optimizer = true
 optimizer-runs = 1
 via_ir = true
 
+[profile.level20]
+src = "level20/src"
+test = "level20/test"
+out = "out"
+libs = ["lib"]
+solc = "0.5.5"
+optimizer = true
+optimizer-runs = 1
+via_ir = true
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
