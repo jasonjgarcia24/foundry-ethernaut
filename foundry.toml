@@ -2,6 +2,12 @@
 local = "http://127.0.0.1:8545"
 sepolia = "${FORK_URL}"
 
+[profile.default]
+src = 'contracts'
+out = 'out'
+libs = ["lib"]
+remappings = []
+
 [profile.scratch]
 src = "scratchsrc"
 test = "scratch/test"
@@ -144,6 +150,26 @@ test = "level20/test"
 out = "out"
 libs = ["lib"]
 solc = "0.5.5"
+optimizer = true
+optimizer-runs = 1
+via_ir = true
+
+[profile.level21]
+src = "level21/src"
+test = "level21/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+optimizer = true
+optimizer-runs = 1
+via_ir = true
+
+[profile.level22]
+src = "level22/src"
+test = "level22/test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
 optimizer = true
 optimizer-runs = 1
 via_ir = true
